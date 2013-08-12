@@ -1,0 +1,36 @@
+/*
+ * primary stylesheet
+ */
+
+body
+{
+    margin-top: 20px;
+    min-width: 950px;
+    min-height: 700px;
+}
+
+#sub_container
+{
+    min-width: 100%;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+#history_items
+{
+    position:relative;
+    float: right;
+    width: 240px;
+    padding-left: 4px;
+}
+
+#definitions
+{
+    position:relative;
+    float: left;
+    /*margin-right: 5px;
+    margin-left: 22px;
+    min-width: 80%;*/
+    min-height: 600px;
+    width: 650px;
+}

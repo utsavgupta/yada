@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yet Another Dictionary App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+  <link href="assets/style.css" rel="stylesheet" media="screen">
+</head>
+
+<body onload="javascript:init_db();">
+
+  <div class="container">
+    <div class="navbar">
+      <div class="navbar-inner">
+	<a class="brand" href="#">YADA</a>
+	<id class="navbar-form pull-right" onsubmit="">
+	  <input type="text" class="search-query" placeholder="type word here..." id="phrase">
+	</id>
+      </div>
+    </div>
+
+    <div id="sub_container">
+      <div id="definitions">
+	&nbsp;
+      </div>
+
+      <div id="history_items">
+      </div>
+    </div>
+
+  </div>
+
+  <script src="assets/jquery-2.0.3.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/application.js" type="text/javascript"></script>
+</body>
+</html>
