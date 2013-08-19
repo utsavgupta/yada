@@ -3,13 +3,14 @@
 import request_handler
 from gi.repository import Gtk
 from gi.repository import WebKit
+import os
 
 def main():
     window = Gtk.Window()
     view = WebKit.WebView()
     scrolled_window = Gtk.ScrolledWindow()
     
-    view.open('file:///home/utsav/Desktop/dictionary/UI/App.html') # load the main UI of the application
+    view.open(os.path.abspath(os.path.join(os.path.dirname(__file__), "../UI/App.html"))) # load the main UI of the application
     scrolled_window.set_size_request(1000, 900)
     
     window.set_title('YADA')
